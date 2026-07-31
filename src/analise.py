@@ -121,8 +121,8 @@ def main():
     while True:
         mostrar_menu()
         opcao = input("Escolha uma opção: ").strip()
-
-        if opcao == 1:
+        
+        if opcao == "1":
             time_analisado = input("Sobre qual time gostarias de informações? ").strip()
             if time_existe(dados, time_analisado):
                 mostrar_informacoes(dados, time_analisado)
